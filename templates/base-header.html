@@ -1,0 +1,72 @@
+{{% define "base-header.html" %}}
+
+<!DOCTYPE HTML>
+<html ng-app="myApp">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="">
+
+<title>服务发现与注册</title>
+
+<!-- Bootstrap 核心 CSS 文件 -->
+<link rel="stylesheet" href="/static/reg/base/css/bootstrap/3.2.0/bootstrap.min.css">
+
+<!-- 可选的Bootstrap主题文件（一般不用引入） -->
+<link rel="stylesheet" href="/static/reg/base/css/bootstrap/3.2.0/bootstrap-theme.min.css">
+
+<!-- font-awesome -->
+<link rel="stylesheet" href="/static/reg/base/css/font-awesome-4.3.0/css/font-awesome.min.css">
+
+<!-- angular ui -->
+<!--<link rel="stylesheet" href="/static/reg/base/css/angular-ui/grid/3.0.1/ui-grid.min.css">-->
+
+<!-- 自定义CSS -->
+<link rel="stylesheet" href="/static/reg/base/css/base.css">
+
+<!-- jQuery文件,务必在bootstrap.min.js 之前引入 -->
+<!--<script src="/static/reg/base/js/jquery/1.11.1/jquery.min.js"></script>-->
+
+<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+<!--<script src="/static/reg/base/js/bootstrap/3.2.0/bootstrap.min.js"></script>-->
+
+<!-- angularjs -->
+<script src="/static/reg/base/js/angular/1.4.5/angular.min.js"></script>
+<script src="/static/reg/base/js/angular/1.4.5/angular-cookies.min.js"></script>
+<script src="/static/reg/base/js/angular/1.4.5/angular-resource.min.js"></script>
+
+<!-- angular ui -->
+<script src="/static/reg/base/js/angular-ui/router/0.2.15/angular-ui-router.min.js"></script>
+<!--<script src="/static/reg/base/js/angular-ui/bootstrap/0.13.4/bootstrap.min.js"></script>-->
+<script src="/static/reg/base/js/angular-ui/bootstrap/1.1.1/bootstrap.min.js"></script>
+<!--<script src="/static/reg/base/js/angular-ui/grid/3.0.1/ui-grid.min.js"></script>-->
+
+<!-- base-nav -->
+<script src="/static/reg/base/js/base.js"></script>
+<script src="/static/reg/base/js/navbar.directive.js"></script>
+
+<script src="/static/reg/base/js/base.routes.js"></script>
+
+<!-- common directive -->
+<script src="/static/reg/base/js/directive/srvclist-head.js"></script>
+<script src="/static/reg/base/js/directive/srvclist-body.js"></script>
+
+<!-- ladyload -->
+<!--<script src="/static/reg/base/js/zeroclipboard/2.2.0/ZeroClipboard.min.js"></script>-->
+<!--<script src="/static/reg/base/js/zeroclipboard/2.2.0/ZeroClipboard.Core.min.js"></script>-->
+<!--<script src="/static/reg/base/js/ng-clip/0.2.6/ng-clip.min.js"></script>-->
+
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body>
+
+{{% template "base-nav.html" . %}}
+
+{{% end %}}

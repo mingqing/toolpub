@@ -1,0 +1,44 @@
+{{% define "help/ie-upgrade.html" %}}
+
+<!DOCTYPE html">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>浏览器该升级啦！</title>
+<style>
+*{padding:0px;margin:0px;list-style:none;font-size:12px;}
+.main{width:1000px;height:630px;margin:0 auto;margin-top:40px; position: relative;}
+.s_tu{width:155px;height:173px;float:left;padding:40px 80px;padding-right:20px;}
+.s_font{width:500px;float:left;height:auto;padding-top:70px;color:#6f736c;font-size:14px;line-height:2;font-family:"微软雅黑";}
+.s_font span{display:block;font-size:20px;color:#529e1b;font-family:"微软雅黑";}
+.s_ff{height:91px;clear:both;padding-left:141px;padding-top:80px;}
+.s_ff a{margin-left:20px;}
+a img{border:none;}
+#downloadTitle{ 
+    left: 100px;
+    position: absolute;
+    top: 220px;
+}
+</style>
+</head>
+<body>
+  <div class="main">
+    <div class="s_tu">
+            <img src="http://upfile.asqql.com/2009pasdfasdfic2009s305985-ts/2010-8/20108259121243083_asqql.com.gif" />
+        </div>
+        <div class="s_font">
+            <span>您的IE浏览器版本过低！</span>
+鉴于IE6安全漏洞过多，为了保障您的访问安全，获得更友好的用户体验，建议您升级到IE9或以上版本！
+如果您不方便升级IE，您也可以使用谷歌、火狐等浏览器，或者搜狗高速浏览器的高速模式、360极速浏览器的极速模式。
+        </div>
+        <div class="s_font" id="downloadTitle">
+            <span>快速下载：</span>
+        </div>
+        <div class="s_ff">
+            <a href="/static/browsers/Firefox.exe"><img src="/oa/login/upgrade/images/ff.png" /></a><a href="/static/browsers/IE8.exe"><img src="/oa/login/upgrade/images/iepng.png" /></a>
+        </div>
+    </div>
+</body>
+</html>
+{{% end %}}
